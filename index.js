@@ -1,4 +1,4 @@
-const http = require('http')
+const http = require('https')
 const shell = require('shelljs')
 const createHandler = require('github-webhook-handler')
 const handler = createHandler({ path: '/webhook', secret: 'vnshop' })
